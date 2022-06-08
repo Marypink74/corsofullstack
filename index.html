@@ -8,17 +8,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <div class="row">
-        <div class="col-8"> <!--col-8 vuol dire che il paragrafo prenderà lo spazio di 8 colonne sul totale di 12-->
+<div class="container"> <!-- ha lo spazio sia a destra che a sinistra-->
+  
+    <div class="row gx-5"> <!--gx-5 significa che diamo uno spazio di 5 verticalmente; invece gy-5 in senso orizzontale; g-sm-1 dico che nel mobile da uno spazio e g-md-5 dico che nel medium ha 5 spazi. -->
+        <div class="col-sm-12 col-md-6"> <!--col-8 vuol dire che il paragrafo prenderà lo spazio di 8 colonne sul totale di 12; col-sm-12 significa che nei dispositivi small(cellulari) la colonna prenderà tutto lo spazio di 12 colonne; col-md-6 significa che nei dispositivi medium(tablet) la colonna prenderà lo spazio di 6 colonne-->
             <h1>Titolo Articolo 1</h1>
+            <img src="/img/sfondo.jpg" alt="" class="img-fluid"> <!--Rende Responsive(cioè si adatta) un'immagine-->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore error dolor eveniet. Molestias ab sed fugiat vitae eveniet possimus eius, cupiditate consectetur fugit soluta? Provident tempora porro nostrum numquam! Ab nesciunt reiciendis aliquam cupiditate dicta, atque vel quis possimus delectus iusto deserunt consequatur? Temporibus quam sunt facilis molestias modi debitis placeat reiciendis nesciunt accusantium? Quia voluptatibus, dolore optio a dignissimos illo cumque sed repudiandae ipsa quisquam vitae rerum saepe maxime suscipit ducimus commodi. Sed animi, aut sint incidunt molestias suscipit nisi! Et error id animi, obcaecati earum inventore deleniti sed magni at, consequuntur maxime aspernatur a aut soluta numquam.</p>
 
         </div>
-        <div class="col">
+        <div class="col bg-success"> <!--bg da il colore di sfondo verde(success) in questo caso all'articolo 2-->
             <h1>Titolo Articolo 2</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt repudiandae enim quam nostrum ea. Mollitia ullam ad dicta, pariatur quo porro ex doloremque? Ipsum, dolorem necessitatibus. Id quidem cupiditate dolores possimus nemo sequi culpa minus magnam aliquam tempora, impedit eligendi quas at explicabo, iure totam repellendus officiis cumque expedita.</p>
+            <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt repudiandae enim quam nostrum ea. Mollitia ullam ad dicta, pariatur quo porro ex doloremque? Ipsum, dolorem necessitatibus. Id quidem cupiditate dolores possimus nemo sequi culpa minus magnam aliquam tempora, impedit eligendi quas at explicabo, iure totam repellendus officiis cumque expedita.</p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <h1>Titolo Articolo 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non corrupti, repellat, vel quisquam impedit dicta delectus quas reprehenderit explicabo enim illo recusandae molestias odio labore amet necessitatibus iste consequatur doloremque est eaque modi ex culpa at! Voluptatum, ducimus deleniti maxime repudiandae corrupti dolorum voluptate ea quas mollitia architecto praesentium.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 bg-ligth">
+            <h1>Titolo Articolo 4</h1>
+            <p class="text-danger">Temporibus quos eius iste enim inventore corrupti molestias suscipit. Accusantium repudiandae culpa incidunt quibusdam. Nostrum non aspernatur est voluptatem necessitatibus, asperiores perspiciatis eaque laborum nesciunt modi earum, voluptas quasi numquam esse, reprehenderit quidem hic! Officiis similique, in magnam blanditiis, vero, sit fugiat aut magni optio quae hic corporis ducimus. Sapiente?</p>
+        </div>
+        <div class="col-sm-12 col-md-6 bg-success">
+            <h1>Titolo Articolo 5</h1>
+            <p class="text-white">Autem omnis quisquam accusantium! Quia, nihil mollitia dignissimos cumque quam delectus saepe. Excepturi mollitia blanditiis dolorem est necessitatibus, quaerat deleniti nesciunt, animi consequatur eligendi nam saepe quidem. Quae, nobis labore perspiciatis numquam tenetur nostrum unde dignissimos eaque in ipsam alias voluptate cum excepturi ea totam hic nesciunt laborum delectus vel.</p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <h1>Titolo Articolo 6</h1>
+            <p>Voluptas perspiciatis tenetur maiores? Dolore debitis dolorem fugiat omnis maiores! Vitae, libero, perferendis fugit cum saepe nemo non maxime consequuntur neque dicta velit, deserunt deleniti nisi. Ullam debitis atque velit natus aliquam, eaque adipisci, quo commodi sunt nisi eum incidunt ab distinctio. Fuga illum voluptatibus aperiam asperiores dolores eos possimus?</p>
         </div>
     </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
